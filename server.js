@@ -21,7 +21,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'IMG-20160716-WA0029.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'CYMERA_20160131_105516.jpg'));
 });
 
 
