@@ -23,8 +23,8 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/CYMERA_20160131_105516.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'CYMERA_20160131_105516.jpg'));
 });
-app.get('/ui/2.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '2.jpg'));
+app.get('/ui/2_0uH_icon.ico', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '2_0uH_icon.ico'));
 });
 
 
