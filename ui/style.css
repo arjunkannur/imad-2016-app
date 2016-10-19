@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
-    color:gray;
+    color:red;
 }
 
 .center {
@@ -20,6 +20,4 @@ body {
 .img-medium {
     height: 200px;
 }
-.font {
-    color:gray;
-}
+
