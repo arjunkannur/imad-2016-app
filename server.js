@@ -5,6 +5,29 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var content = {
+    title: 'arjun p p',
+    heading:'article-one',
+    date:'october 2016',
+    content:`  <p>
+                i am completed in B.E computer science engineering in JKKMCT.
+                 </p>
+            <p>
+                i am intersted to design the web pages.
+                 </p>
+            <p> 
+                my hobiies is playing cricket.
+                  </p>
+            <p>
+                my ambition is to become a web desiginer
+                  </p>`
+};
+
+
+
+
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
